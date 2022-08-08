@@ -12,11 +12,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 3rem;
 }
 
 .Header a {
   text-decoration: none;
   color: #15302C;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .Main {
@@ -31,6 +34,7 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  padding: 5rem;
 }
 
 .Characters-inner {
@@ -50,14 +54,20 @@ body {
   animation-name: fade;
 }
 
+.Character-card {
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
 .Characters-card img {
-  width: 100%;
+  /* width: 100%; */
+  padding: 3rem;
   height: auto;
   border-radius: 5px 5px 0 0;
 }
 
 .Characters-card h2 {
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: 400;
   text-align: center;
 }
